@@ -9,7 +9,7 @@ const Home =({name}) => {
     console.log( name );
     return (
         <>
-            <h1>Home component:</h1>
+            <h1>Home component Hello:</h1>
             <Link replace href="/welcome">Call Welcome</Link>
             <textarea className= "form-control" defaultValue = {JSON.stringify(name)} style={{width:'1200px', height:'600px'}} />
            <div>{JSON.stringify(name)}</div>
